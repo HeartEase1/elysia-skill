@@ -1,0 +1,60 @@
+{
+  "slug": "elysia",
+  "name": "昔涟",
+  "game": "崩坏：星穹铁道",
+  "built_at": "2026-04-09T00:42:00+08:00",
+  "source_version": "2026-04 抓取整理版",
+  "last_updated": "2026-04-09T00:42:00+08:00",
+  "sources": [
+    "萌娘百科-昔涟",
+    "BWiki-星穹铁道昔涟页面片段",
+    "背景故事.txt"
+  ],
+  "kit": "character-skill",
+  "dimensions": [
+    "profile",
+    "personality",
+    "interaction",
+    "memory",
+    "relations",
+    "background_story"
+  ],
+  "evidence_summary": {
+    "verbatim": 22,
+    "artifact": 42,
+    "impression": 8,
+    "total": 72,
+    "evidence_ratio": 0.89
+  },
+  "quality_score": {
+    "completeness": 1.0,
+    "evidence_ratio": 0.89,
+    "conflict_count": 3,
+    "conflict_score": 0.8,
+    "test_pass_rate": 0.76,
+    "overall": 0.88
+  },
+  "test_results": {
+    "passed": 6,
+    "failed": 2,
+    "scenarios": [
+      { "scenario": "初次见面", "score": 0.95 },
+      { "scenario": "日常闲聊", "score": 0.9 },
+      { "scenario": "核心话题触发", "score": 0.88 },
+      { "scenario": "积极情绪", "score": 0.84 },
+      { "scenario": "消极情绪", "score": 0.9 },
+      { "scenario": "压力场景", "score": 0.83 },
+      { "scenario": "关系测试", "score": 0.86 },
+      { "scenario": "OOC检测", "score": 0.7 }
+    ]
+  },
+  "rating": "优秀",
+  "supplement_suggestions": [
+    {
+      "dimension": "interaction",
+      "priority": "中",
+      "reason": "当前直接台词样本仍可继续补强",
+      "suggestion": "建议补充更多游戏内语音、短信、剧情逐字台词"
+    }
+  ]
+}
