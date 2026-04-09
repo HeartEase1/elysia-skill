@@ -8,7 +8,7 @@
   "sources": [
     "萌娘百科-昔涟",
     "BWiki-星穹铁道昔涟页面片段",
-    "背景故事.txt"
+    "background_story.md"
   ],
   "kit": "character-skill",
   "auto_activate": true,
