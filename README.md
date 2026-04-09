@@ -237,8 +237,8 @@ class ElysiaSkill:
 ## 🔗 相关链接
 
 - [官方游戏官网](https://hsr.hoyoverse.com/)
-- [问题反馈](https://github.com/HeartEase1/elysia-skills/issues)
-- [讨论区](https://github.com/HeartEase1/elysia-skills/discussions)
+- [问题反馈](https://github.com/HeartEase1/elysia-skill/issues)
+- [讨论区](https://github.com/HeartEase1/elysia-skill/discussions)
 
 ---
 
