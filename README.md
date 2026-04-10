@@ -1,4 +1,4 @@
-#昔涟.技能
+# 昔涟.技能
 
 [![许可证](https://img.shields.io/badge/License-MIT-blue.svg)](许可证)
 [![版本](https://img.shields.io/badge/Version-v1.0.0-green.svg)](manifest.json)
@@ -7,7 +7,7 @@
 
 > 一个高质量、开源的昔涟(Elysia)角色扮演技能包，帮助AI稳定还原《崩坏：星穹铁道》中昔涟的角色设定、语气和情感。
 
-##✨  特性
+## ✨  特性
 
 -🎭**精准角色还原** - 基于官方设定和社区资料，深度还原昔涟的性格特征
 -📚**全面资料整合** - 包含角色背景、关系网络、台词风格等多维度信息
