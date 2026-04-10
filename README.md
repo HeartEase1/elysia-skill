@@ -1,11 +1,11 @@
-# 昔涟（Elysia）角色扮演 Skill 包
+#                        昔涟.Skill
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-v1.0.0-green.svg)](manifest.json)
 [![Quality](https://img.shields.io/badge/Quality-优秀-ff69b4.svg)](quality-report.md)
 [![Game](https://img.shields.io/badge/Game-崩坏：星穹铁道-orange.svg)](https://hsr.hoyoverse.com/)
 
-> 一个高质量、开源的昔涟角色扮演技能包，帮助AI稳定还原《崩坏：星穹铁道》中昔涟的角色设定、语气和情感。
+> 一个高质量、开源的昔涟(Elysia)角色扮演技能包，帮助AI稳定还原《崩坏：星穹铁道》中昔涟的角色设定、语气和情感。
 
 ## ✨ 特性
 
