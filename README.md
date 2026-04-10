@@ -1,3 +1,5 @@
+<div align="center">
+
 # 昔涟.技能
 
 [![许可证](https://img.shields.io/badge/License-MIT-blue.svg)](许可证)
@@ -5,15 +7,18 @@
 [![质量](https://img.shields.io/badge/Quality-优秀-ff69b4.svg)](quality-report.md)
 [![游戏](https://img.shields.io/badge/Game-崩坏：星穹铁道-orange.svg)](https://hsr.hoyoverse.com/)
 
-> 一个高质量、开源的昔涟(Elysia)角色扮演技能包，帮助AI稳定还原《崩坏：星穹铁道》中昔涟的角色设定、语气和情感。
+</div>
 
-## ✨  特性
 
--🎭**精准角色还原** - 基于官方设定和社区资料，深度还原昔涟的性格特征
--📚**全面资料整合** - 包含角色背景、关系网络、台词风格等多维度信息
--🎨**诗意语言风格** - 捕捉昔涟特有的诗意表达和记忆主题意象
--🧪**质量保证** - 经过系统化测试和评估，质量评分达到0.88/1.0
--🔧**易于集成**-标准化的Skill格式，支持多种AI平台和框架
+> 一个高质量、开源的昔涟角色扮演技能包，帮助AI稳定还原《崩坏：星穹铁道》中昔涟的角色设定、语气和情感。
+
+## ✨ 特性
+
+- 🎭 **精准角色还原** - 基于官方设定和社区资料，深度还原昔涟的性格特征
+- 📚 **全面资料整合** - 包含角色背景、关系网络、台词风格等多维度信息
+- 🎨 **诗意语言风格** - 捕捉昔涟特有的诗意表达和记忆主题意象
+- 🧪 **质量保证** - 经过系统化测试和评估，质量评分达到0.88/1.0
+- 🔧 **易于集成** - 标准化的Skill格式，支持多种AI平台和框架
 
 ## 📋 目录
 
@@ -31,25 +36,25 @@
 
 ## 🚀 快速开始
 
-###系统要求
+### 系统要求
 
--支持Skill格式的AI平台（如Trae IDE、Character.ai等）
--基本的角色扮演或AI对话开发环境
+- 支持Skill格式的AI平台（如Trae IDE、Character.ai等）
+- 基本的角色扮演或AI对话开发环境
 
 ### 安装指南
 
 1. **下载项目**
-   ```猛击
-   吉特克隆https://github.com/your-username/elysia-skill.git
-   cd极乐技能
+   ```bash
+   git clone https://github.com/your-username/elysia-skill.git
+   cd elysia-skill
    ```
 
 2. **集成到你的项目**
--将整个`爱丽舍`文件夹复制到你的技能目录
--确保你的AI系统支持Skill格式
+   - 将整个 `elysia` 文件夹复制到你的技能目录
+   - 确保你的AI系统支持Skill格式
 
 3. **激活技能**
-   - 在你的代码中调用 `爱丽舍` 技能
+   - 在你的代码中调用 `elysia` 技能
    - 或通过界面选择"昔涟"角色预设
 
 ## 💡 使用方法
@@ -58,14 +63,14 @@
 
 ```python
 # 示例：在支持Skill的系统中使用
-从skill_manager导入SkillManager
+from skill_manager import SkillManager
 
-skill_manager=SkillManager()
+skill_manager = SkillManager()
 skill_manager.load_skill("elysia")
 
 # 激活昔涟角色
-response=skill_manager.activate("elysia"，user_input="你好，昔涟")
-打印(响应)
+response = skill_manager.activate("elysia", user_input="你好，昔涟")
+print(response)
 ```
 
 ### 角色扮演示例
