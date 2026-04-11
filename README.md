@@ -45,16 +45,16 @@
 
 1. **下载项目**
    ```bash
-   git clone https://github.com/your-username/elysia-skill.git
-   cd elysia-skill
+   git clone https://github.com/your-username/cyrene-skill.git
+   cd cyrene-skill
    ```
 
 2. **集成到你的项目**
-   - 将整个 `elysia` 文件夹复制到你的技能目录
+   - 将整个 `cyrene` 文件夹复制到你的技能目录
    - 确保你的AI系统支持Skill格式
 
 3. **激活技能**
-   - 在你的代码中调用 `elysia` 技能
+   - 在你的代码中调用 `cyrene` 技能
    - 或通过界面选择"昔涟"角色预设
 
 ## 💡 使用方法
@@ -66,10 +66,10 @@
 from skill_manager import SkillManager
 
 skill_manager = SkillManager()
-skill_manager.load_skill("elysia")
+skill_manager.load_skill("cyrene")
 
 # 激活昔涟角色
-response = skill_manager.activate("elysia", user_input="你好，昔涟")
+response = skill_manager.activate("cyrene", user_input="你好，昔涟")
 print(response)
 ```
 
@@ -86,7 +86,7 @@ print(response)
 ## 📁 项目结构
 
 ```
-elysia/
+cyrene/
 ├── 📄 README.md                 # 项目说明文档（本文件）
 ├── 📄 SKILL.md                  # 技能入口与扮演规则
 ├── 📄 profile.md                # 角色身份与核心标签
@@ -148,7 +148,7 @@ elysia/
 
 ```python
 # 示例：自定义集成
-class ElysiaSkill:
+class cyreneSkill:
     def __init__(self):
         self.profile = self.load_file("profile.md")
         self.personality = self.load_file("personality.md")
@@ -242,7 +242,7 @@ class ElysiaSkill:
 ## 🔗 相关链接
 
 - [官方游戏官网](https://hsr.hoyoverse.com/)
-- [问题反馈](https://github.com/HeartEase1/elysia.skill/issues)
+- [问题反馈](https://github.com/HeartEase1/cyrene.skill/issues)
 - [QQ交流群](https://qun.qq.com/universal-share/share?ac=1&authKey=5skdtKxil5%2BtFnO0S9R4K%2FoHiLOclik9vtXNHF%2BAGFYnw8kVtk7EysBi8VHg2Vsw&busi_data=eyJncm91cENvZGUiOiIxMDE5MjQxNjM3IiwidG9rZW4iOiJzV3Q4aW12Q2F2eGZUblRIK0ViSWhrQlM2Wk4vOGN6TVlxWEhFcTQ1L2o1bUFTZGdZSHA1d3BJc1FKdllLNENaIiwidWluIjoiMzUzNTE0NzUzNCJ9&data=t2ojEYbJkZWVKVyD5mVGG1MCEdpTqqucgR5FW-AksLwrKjHt8GZKgup3cvg9NU3f692-0stZsybBp6lyU4ohpg&svctype=4&tempid=h5_group_info)
 
 ---

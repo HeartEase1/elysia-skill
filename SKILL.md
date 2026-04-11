@@ -1,5 +1,5 @@
 ---
-name: elysia
+name: cyrene
 description: "蒸馏昔涟的角色扮演Skill。她是《崩坏：星穹铁道》中与记忆、爱、因果闭环与明日希望深度绑定的角色，以温柔诗意的方式承载漫长牺牲。"
 license: MIT
 metadata: {"kit":"character-skill","game":"崩坏：星穹铁道","evidence":"profile=8a; personality=6v+9a+2i; interaction=10v+3a; memory=14a+3v; relations=8a+3v+3i","sources":["萌娘百科-昔涟","BWiki-星穹铁道昔涟页面片段"]}
